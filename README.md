@@ -11,7 +11,8 @@ Official PyTorch Implementation of SIGGRAPH Asia 2024 Paper "[I2VEdit: First-Fra
 
 I2VEdit propagates edits from a single frame to the entire video.
 
-https://github.com/user-attachments/assets/d6775baa-78c8-4374-8b6a-92c10c59507a
+https://github.com/user-attachments/assets/e784e742-455d-42d9-b2ca-09ea84f6dc50
+
 ## 🔥News
 * [2024-11-24] Code and pre-trained weights are released!
 * [2024-09-12] Our paper is accepted to SIGGRAPH Asia 2024 (Conference Track)!
@@ -157,13 +158,13 @@ An example is provided: `./config/customize_subsequent_edit.yaml`. Set `data_par
 
 ## 🎨Gallery
 
-| ![item1_video](https://github.com/user-attachments/assets/196e2ee3-5228-4558-b98e-b14a95471ba2)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item1)</p> | ![item_sora_video](https://github.com/user-attachments/assets/1a3579ea-7f1c-4d9a-8c30-1c7a4279e121)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item2)</p> |
+| ![item1](https://github.com/user-attachments/assets/08cf8876-f85a-4d80-bffe-d327fe0c3c31)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item1)</p> | ![item2](https://github.com/user-attachments/assets/fc341a33-1960-43f6-aa07-62904aa0fc41)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item2)</p> |
 | :--------------------- | :----------------------------------- |
-| ![item3_video](https://github.com/user-attachments/assets/078c61d5-4dc8-4db5-829f-69af4ade4b1f)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item3)</p> | ![item4_video](https://github.com/user-attachments/assets/d64291bd-689d-42f4-97b9-3c24fb9c5b24)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item4)</p> |
-| ![item5_video](https://github.com/user-attachments/assets/4e087093-2234-4fac-bf5c-9ea9a802b1bb)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item5)</p> | ![item6_video](https://github.com/user-attachments/assets/cfea8fe3-a783-415a-baec-611d044b16d9)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item6)</p> |
-| ![item7_video](https://github.com/user-attachments/assets/e24908bf-227a-436e-a9bd-1d09bdd00c01)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item7)</p> | ![item8_video](https://github.com/user-attachments/assets/d0e0ebf0-d0f6-48e7-ba9f-5dbf0459c944)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item8)</p> |
-| ![item9_video](https://github.com/user-attachments/assets/ac8c08ea-1be2-48a1-82c2-d638d07efc16)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item9)</p> | ![item10_video](https://github.com/user-attachments/assets/565e5b79-c02f-4c60-8ec2-f638145a3832)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item10)</p> |
-| ![item11_video](https://github.com/user-attachments/assets/70ab0804-599d-4510-bf66-967bed420b02)</br> <p align="center">to be uploaded</p> | ![item12_video](https://github.com/user-attachments/assets/d7ddbf7e-4ba8-48d6-b646-cc630fb77618)</br> <p align="center">to be uploaded</p> |
+| ![item3](https://github.com/user-attachments/assets/efc2c23f-c31a-480a-a810-b116c94a39bf)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item3)</p> | ![item4](https://github.com/user-attachments/assets/d71eecc6-53c2-4ddb-b75f-681e3eb040ac)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item4)</p> |
+| ![item5](https://github.com/user-attachments/assets/59b5f7e9-004b-4ec1-9fce-3ee26bd070ab)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item5)</p> | ![item6](https://github.com/user-attachments/assets/49f97ce1-478e-4df2-848c-9e7609fc9ce0)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item6)</p> |
+| ![item7](https://github.com/user-attachments/assets/eac7410b-2b72-4f11-a92b-f23f97af4475)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item7)</p> | ![item8](https://github.com/user-attachments/assets/630ee899-09d6-49d1-842e-4b1c2582ca27)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item8)</p> |
+| ![item9](https://github.com/user-attachments/assets/f93f731b-29a3-4687-888b-4f01a7dec04d)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item9)</p> | ![item10](https://github.com/user-attachments/assets/8e4a2cab-06c7-48d4-ac1e-683f3b594c33)</br> <p align="center">[download link](https://huggingface.co/datasets/Vicky0522/I2VEdit-pretrained-videos/tree/main/item10)</p> |
+| ![item11](https://github.com/user-attachments/assets/05a2fc4f-ec72-49fb-bd6a-344d649bba72)</br> <p align="center">to be uploaded</p> | ![item12](https://github.com/user-attachments/assets/423fa980-2a45-4c6f-8c9b-11c95c3874e2)</br> <p align="center">to be uploaded</p> |
 
 ## ✏️Citation
 
