@@ -1,0 +1,2 @@
+mydata/source_and_edits/source.mp4 filter=lfs diff=lfs merge=lfs -text
+mydata/source_and_edits/white.jpg filter=lfs diff=lfs merge=lfs -text
