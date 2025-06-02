@@ -371,6 +371,8 @@ class AttentionControlEdit(AttentionStore, abc.ABC):
             
             h = q.shape[1]
             res = int(np.sqrt(q.shape[-2] / (9*16))) 
+            if res == 0:
+                res = 1
             #res = int(np.sqrt(q.shape[-2] / (8*14))) 
             bs = self.spatial_attention_chunk_size
             if bs is None: bs = qs.shape[0]

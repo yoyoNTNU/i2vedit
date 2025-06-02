@@ -13,7 +13,7 @@ use_sarp: true
 
 use_motion_lora: true
 train_motion_lora_only: false
-retrain_motion_lora: true
+retrain_motion_lora: false
 
 use_inversed_latents: true
 use_attention_matching: true
@@ -28,20 +28,19 @@ load_from_last_frames_latents:
 
 # data_params
 data_params:
-  video_path: "../datasets/svdedit/item1/source.mp4"
+  video_path: "./cache/mydata/source_and_edits/source.mp4"
   keyframe_paths:
-    - "../datasets/svdedit/item1/necklace.png"
-    - "../datasets/svdedit/item1/red_hair.png"
+    - "./cache/mydata/source_and_edits/white.jpg"
   start_t: 0
-  end_t: 8.4
-  sample_fps: 2.5
-  chunk_size: 11
+  end_t: 1.6
+  sample_fps: 10
+  chunk_size: 16
   overlay_size: 1
   normalize: true
-  output_fps: 5
+  output_fps: 3
   save_sampled_frame: true
-  output_res: [576, 1024]
-  pad_to_fit: false
+  output_res: [384, 384]
+  pad_to_fit: true
   begin_clip_id: 0
   end_clip_id: 1
 
@@ -75,22 +74,22 @@ train_motion_lora_params:
 
   train_data:
     # The width and height in which you want your training data to be resized to.
-    width: 896
-    height: 512
+    width: 384
+    height: 384
     # This will find the closest aspect ratio to your input width and height. 
-    # For example, 512x512 width and height with a video of resolution 1280x720 will be resized to 512x256
+    # For example, 384x384 width and height with a video of resolution 1280x720 will be resized to 384x256
     use_data_aug: ~ #"controlnet"
-    pad_to_fit: false
+    pad_to_fit: true
 
   validation_data:
     # Whether or not to sample preview during training (Requires more VRAM).
     sample_preview: True
     # The number of frames to sample during validation.
-    num_frames: 14
+    num_frames: 16
     # Height and width of validation sample.
-    width: 1024
-    height: 576
-    pad_to_fit: false
+    width: 384
+    height: 384
+    pad_to_fit: true
     # scale of spatial LoRAs, default is 0
     spatial_scale: 0
     # scale of noise prior, i.e. the scale of inversion noises
@@ -105,11 +104,11 @@ attention_matching_params:
   best_checkpoint_index: 250
   lora_scale: 1.0
   # lora path
-  lora_dir: ~
+  lora_dir: "./outputs/384/train_motion_lora"
   max_guidance_scale: 2.0
 
   disk_store: True
-  load_attention_store: ~
+  load_attention_store: "./outputs/384/attention_store"
   load_consistency_attention_store: ~
   load_consistency_train_attention_store: ~
   registered_modules:

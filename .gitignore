@@ -8,4 +8,4 @@ __pycache__
 *.mp4
 *.png
 i2vedit.egg-info/
-
+!mydata/**/*.mp4
